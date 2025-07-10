@@ -14,6 +14,7 @@ This repository contains a Python implementation of Count Sort (Counting Sort) s
 ---
 
 Usage
+
 Run the script.
 
 Enter a single lowercase word when prompted.
