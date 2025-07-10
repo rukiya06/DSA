@@ -13,10 +13,12 @@ This repository contains a Python implementation of Count Sort (Counting Sort) s
 
 ---
 
-##Usage
+## Usage
 
 Run the script.
 
 Enter a single lowercase word when prompted.
 
 See the original and sorted strings printed on the screen.
+
+---
