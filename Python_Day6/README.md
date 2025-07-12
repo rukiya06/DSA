@@ -1,14 +1,22 @@
-Pancake Sort
-Description
-This is a Python implementation of the Pancake Sort algorithm. The algorithm sorts a list of integers by repeatedly flipping prefixes of the list to move the largest unsorted element to its correct position, similar to flipping pancakes in a stack.
+# Pancake Sort
 
-During the sorting process, the code prints each flip operation showing the prefix length flipped and the current state of the array.
+Pancake Sort is a sorting algorithm that sorts a sequence by repeatedly flipping (reversing) prefixes of the list. The algorithm is inspired by the process of sorting pancakes in a stack with a spatula.
 
-How It Works
-Find the maximum element in the unsorted prefix.
+## How Pancake Sort Works
 
-Flip the prefix up to that maximum element to bring it to the front.
+- Find the largest unsorted element in the array.
+- Flip the array up to the position of this element to bring it to the front.
+- Flip the entire unsorted portion to move the largest element to its correct position at the end.
+- Repeat for the remaining unsorted portion.
 
-Flip the prefix up to the current unsorted size to move the maximum element to its correct sorted position.
+## Time Complexity
 
-Repeat until the entire list is sorted.
+- Worst Case: O(n²)
+- Best Case: O(n²)
+- Average Case: O(n²)
+
+## Space Complexity
+
+- O(1) (In-place sorting)
+
+
